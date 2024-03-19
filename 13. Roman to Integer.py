@@ -59,5 +59,5 @@ class Solution(object):
         res += dct[s[-1]]
         return res
 
-x = Solution()
-print(x.romanToInt('MCMXCIV'))
+# x = Solution()
+# print(x.romanToInt('MCMXCIV'))
