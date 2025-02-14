@@ -45,7 +45,7 @@ class Solution(object):
         return result
 
 
-x = Solution()
-print(x.mergeTwoLists(list1=[1,2,4], list2=[1,3,4]))
+# x = Solution()
+# print(x.mergeTwoLists(list1=[1,2,4], list2=[1,3,4]))
 
 
