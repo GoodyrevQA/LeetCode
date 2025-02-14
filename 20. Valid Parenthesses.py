@@ -58,12 +58,9 @@ class Solution(object):
 
             dct[char] += 1
 
-            # if dct['('] - dct[')'] < 0 or dct['['] - dct[']'] < 0 or dct['{'] - dct['}'] < 0:
-            #     return False
-            
         return dct['('] == dct[')'] and dct['['] == dct[']'] and dct['{'] == dct['}']
             
-x = Solution()
-print(x.isValid('[([]])'))
+# x = Solution()
+# print(x.isValid('[([]])'))
 
 
